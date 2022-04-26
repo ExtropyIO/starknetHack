@@ -102,31 +102,7 @@ function Content(props) {
               />
             }
           /> 
-          <Route exact path="/Level_0_Practice"
-            render={()=>
-              <Level_0_Practice
-                account={props.account}
-                username={props.username}
-                handleChange={props.handleChange}
-                registerUserLevel={props.registerUserLevel}
-                submitSolution={props.submitSolution}
-                updateLeaderboard={props.updateLeaderboard}
-              />
-            }
-          />
-          <Route exact path="/Level_1_Brute_Force" 
-            render={()=>
-              <Level_1_Brute_Force
-                account={props.account}
-                username={props.username}
-                handleChange={props.handleChange}
-                registerUserLevel={props.registerUserLevel}
-                submitSolution={props.submitSolution}
-                updateLeaderboard={props.updateLeaderboard}
-              />
-            }
-          />
-          <Route exact path="/Level_2_Reentrancy" 
+          <Route exact path="/Level_1_Reentrancy" 
             render={()=>
               <Level_2_Reentrancy
                 account={props.account}
@@ -138,18 +114,8 @@ function Content(props) {
               />
             }
           />
-          <Route exact path="/Level_3_Global_Functions" 
-            render={()=>
-              <Level_3_Global_Functions
-                account={props.account}
-                username={props.username}
-                handleChange={props.handleChange}
-                registerUserLevel={props.registerUserLevel}
-                submitSolution={props.submitSolution}
-                updateLeaderboard={props.updateLeaderboard}
-              />
-            }
-          />
+
+
           {/*<Route exact path="/demolevel3" component={DemoLevel3}/>*/}
           {/*<Route exact path="/level1" component={Level1}/>
           <Route exact path="/contact" component={Contact}/>*/}

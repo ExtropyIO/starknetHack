@@ -2,7 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
  
-function Level_2_Reentrancy(props) {
+function Level_1_Reentrancy(props) {
 
     return (
       <div>
@@ -11,17 +11,10 @@ function Level_2_Reentrancy(props) {
         <p style={{border: "1px dashed coral"}}>
             This level requires you to exploit a reentrancy bug in this simplified ERC20 token contract, in order to drain it from all its funds.
             <br></br>
-            This contract needs to be funded with at least 1 ether at deployment time, the only way to get your ether back is to hack the contract.
+
         </p>
         <br></br>
-        
-        <h5>0.  Deploy level with Remix</h5>
-        <p>
-        <Button variant="primary" href="https://remix.ethereum.org/#gist=2e6d2ea22cc2b7d1394faa8c10b024cd" target="_blank">
-            Open in Remix
-        </Button>
-        </p>
-        <br></br>
+
         <h5>1.  Register deployed level</h5>
 
         <Form onSubmit={props.registerUserLevel}>

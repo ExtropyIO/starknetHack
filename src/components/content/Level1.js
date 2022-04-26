@@ -40,32 +40,7 @@ class Level1 extends Component {
     const contractAddress = networkData.address
     
     if(networkData) {
-      // const Lottery = web3.eth.Contract(lottery_artifacts.abi, contractAddress)
-      // this.setState({ Lottery })
 
-      // let teamCount = await Lottery.methods.getTeamCount.call()
-      // teamCount = teamCount.toString()
-      // this.setState({ teamCount })
-      // console.log(teamCount)
-    //   // Load Posts
-    //   for (var i = 1; i <= postCount; i++) {
-    //     const post = await socialNetwork.methods.posts(i).call()
-    //     this.setState({
-    //       posts: [...this.state.posts, post]
-    //     })
-    //   }
-    //   // Sort posts. Show highest tipped posts first
-    //   this.setState({
-    //     posts: this.state.posts.sort((a,b) => b.tipAmount - a.tipAmount )
-    //   })
-    //   this.setState({ loading: false})
-    // } else {
-    //   window.alert('SocialNetwork contract not deployed to detected network.')
-    // For application bootstrapping, check out window.addEventListener below.
-
-    /////
-
- 
 
 
     }
